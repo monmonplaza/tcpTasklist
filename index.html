@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <section class="dashboard">
+        <aside class="dashboard__sidebar">
+            <div class="dashboard__sidebar__block">
+                <h1>TECH<br>COURSE</h1>
+                <div class="profile">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/%EB%8D%94%EC%85%80%EB%A7%88_%ED%8F%AC%ED%86%A0%EC%BD%9C_%EC%86%A1%EC%A7%80%ED%9A%A8.jpg"
+                        alt="">
+                    <div class="profile__info">
+                        <h2>Paolo Caston</h2>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-id-card"></i> My Info</a></li>
+                    <li><a href="#"><i class="fas fa-folder"></i> Files</a></li>
+                    <li><a href="#"><i class="fas fa-clipboard-list"></i> Evaluation</a></li>
+                </ul>
+            </div>
+
+            <div class="dashboard__sidebar__block">
+                <div class="add__task">
+                    <i class="fas fa-clipboard"></i>
+                    <p>You have <span class="text-red">4</span> pending tasks to do</p>
+                    <a href="#" class="btn btn--primary"><i class="fas fa-plus"></i> Add Task</a>
+                </div>
+            </div>
+        </aside>
+
+        <main class="dashboard__main">
+            <div class="dashboard__main__logout">
+                <div class="date">
+                    <i class="fas fa-calendar"></i>
+                    <div class="date__content">
+                        <p>7/21/2021</p>
+                        <h4>Wednesday</h4>
+                    </div>
+                </div>
+
+                <ul class="logout">
+                    <li><a href="#" class="btn__mode darkmode "><i class="fas fa-moon"></i></a></li>
+                    <li><a href="#"><i class="fas fa-sign-out-alt"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="dashboard__main__task">
+                <div class="task__control">
+                    <h5>Status</h5>
+                    <p>On Going</p>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-pause"></i></a></li>
+                        <li><a href="#"><i class="fas fa-check"></i></a></li>
+                        <li><a href="#"><i class="fas fa-times"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="task__description">
+                    <h2>Convert website to React</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam quisquam officiis eligendi quod
+                        temporibus mollitia...</p>
+                </div>
+
+                <div class="task__time">
+                    <i class="fas fa-sliders-h"></i>
+                    <p class="time__text">02:20:01</p>
+                </div>
+            </div>
+
+            <div class="dashboard__main__grid">
+                <div class="dashboard__main__block">
+                    <div class="tasklist">
+                        <h3 class="block__header">Task Lisk</h3>
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>asdasdasds</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>xcvsdsdvsdvd</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>Covert website to react2</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>Covert website to react3</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>Covert website to react4</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>Covert website to react5</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+                        <div class="taskitem">
+                            <div class="taskitem__switch">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <div class="taskitem__description">
+                                <h4>Covert website to react7</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis a beatae in eaque!
+                                    Nobis ducimus accusantium fugiat animi ut delectus soluta nihil enim.</p>
+                            </div>
+
+                            <div class="taskitem__time">
+                                <p>00:20:21</p>
+                            </div>
+
+                            <div class="taskitem__status">
+                                <p>Status</p>
+                                <h4>Paused</h4>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="quicklink">
+                        <h3 class="block__header">Quick Link</h3>
+                        <div class="quicklink__wrapper">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fab fa-react"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                <li><a href="#"><i class="fab fa-spotify"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard__main__block collapse">
+                    <div class="announcement">
+                        <div class="announcement__header">
+                            <a href="#" class="btn__expand"><i class="fas fa-expand-alt"></i></a>
+                            <h3 class="block__header">Announcement</h3>
+                        </div>
+
+                        <div class="announcement__list">
+                            <div class="announcement__listitem">
+                                <p>09/21/2021</p>
+                                <h4><a href="">lorem ipsum dolor sit amet consectetur adipisicing elit</a></h4>
+                            </div>
+
+                            <div class="announcement__listitem">
+                                <p>09/21/2021</p>
+                                <h4><a href="">lorem ipsum dolor sit amet consectetur adipisicing elit</a></h4>
+                            </div>
+
+                            <div class="announcement__listitem">
+                                <p>09/21/2021</p>
+                                <h4><a href="">lorem ipsum dolor sit amet consectetur adipisicing elit</a></h4>
+                            </div>
+
+                            <div class="announcement__listitem">
+                                <p>09/21/2021</p>
+                                <h4><a href="">lorem ipsum dolor sit amet consectetur adipisicing elit</a></h4>
+                            </div>
+
+                            <div class="announcement__listitem">
+                                <p>09/21/2021</p>
+                                <h4><a href="">lorem ipsum dolor sit amet consectetur adipisicing elit</a></h4>
+                            </div>
+
+                            <div class="announcement__listitem">
+                                <p>09/21/2021</p>
+                                <h4><a href="">lorem ipsum dolor sit amet consectetur adipisicing elit</a></h4>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
